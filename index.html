@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Colegio Montessori</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+
+    <div id="contenedor_imagenes" class="ui grid contenedor_imagenes stackable">
+        <!--Contenedor Logo-->
+        <div class="four column row contenedor_logo">
+            <div class="left floated column logo_header">
+                <img src="./Imagenes/logo-azul-rojo.png"/>
+            </div>
+        </div>
+        <!--Slide-->
+        <div class="sixteen wide column div_carusel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./Imagenes/Banner.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--Contenedor Web-->
+        <div id="contenedor_oriente" class="eight wide column or contenedor_oriente contenedor_img_web">
+            <a href="http://montessori.vcb.com.co/index.php/en/"><img class="imagen oriente " src="./Imagenes/oriente.png"></a>
+            <img id="contenido_oriente" class="imagen contenido_oriente" src="./Imagenes/contenido_oriente.png">
+        </div>
+
+        <div id="contenedor_medellin" class="eight wide column contenedor_medellin contenedor_img_web">
+            <a href="http://www.montessori.edu.co"><img id="medellin" class="imagen medellin" src="./Imagenes/medellin.png"></a>
+            <img id="contenido_medellin" class="imagen contenido_medellin" src="./Imagenes/contenido_medellin.jpg">
+        </div>
+
+
+        <!--Contenedor Mobile-->
+        <div id="contenedor_oriente_mobile" class="eight wide column ">
+            <a href="http://montessori.vcb.com.co/index.php/en/"><img class="imagen oriente " src="./Imagenes/movil_contenido_oriente.png"></a>
+        </div>
+
+        <div id="contenedor_medellin_mobile" class="eight wide column ">
+            <a href="http://www.montessori.edu.co"><img id="medellin" class="imagen medellin" src="./Imagenes/movil_contenido_medellin.png"></a>
+        </div>
+
+        
+
+    </div>
+
+    <!--Contenedor iconos-->
+    <div class="ui equal width center aligned padded grid">
+            <div class="row">
+                <div class="column">
+                    <img align="center" src="./Imagenes/iconos_1.jpg">
+                </div>
+                <div class="column">
+                    <img align="center" src="./Imagenes/iconos_2.jpg">
+                </div>
+            </div>
+        </div>
+
+    <div class="ui equal width center aligned padded grid footer">
+        <div class="row">
+            <div class="column">
+                <div class="column contenedor_logo_footer">
+                    <img align="right" src="./Imagenes/logo_white.png" >
+                </div>
+            </div>
+            <div class="column">
+                    <div align="justify" class="ui list  info_footer">
+                        <div  class="item">
+                            <h4>Página Montessori Oriente</h4>
+                            <p>
+                                Montessori School, Rionegro, began its first academic year in 2018. We feel very 
+                                proud to offer the eastern region of Antioquia a new educational alternative; 
+                                a school in which we first touch the heart in order to get to reason.
+                            </p>    
+                        </div>
+                        <div class="item">
+                            <br>
+                        </div>
+                        <div class="item">
+                            <h4>Página Montessori Medellín</h4>
+                            <p>
+                                Montessori School, Medellín, was founded in 1976 and has consolidated as an 
+                                educational institution with extensive experience, dynamic and open to the world, 
+                                which intends to educate individuals in their full dimension so that they can create 
+                                their own project of life.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="dinamic.js"></script>
+</body>
+</html>
