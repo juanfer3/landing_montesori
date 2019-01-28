@@ -27,7 +27,7 @@
 }
 
 
-
+/** Hover contenedor oriente */
 .or:hover + #contenedor_medellin{
     left: 100%;
 }
@@ -57,17 +57,14 @@
     right: 100%;
 }
 
-/*
-.contenedor_medellin:hover > #contenido_medellin{
-    visibility: visible;
-    right:105%;
-}
-*/
+/**Hover Contenido Medellin*/
 .contenido_medellin_hover{
     visibility: visible;
     right:105%;
 }
 
+
+/**Contenedores Iconos */
 .contenedor_iconos{
     position: absolute;
     margin-top: -20%;
@@ -82,7 +79,6 @@
 .imagen_banner{
     width: 100%!important;
 }
-
 .div_carusel{
     margin-top: -7%;
 }
@@ -118,6 +114,8 @@
     visibility:visible!important;
 }
 
+
+/**Responsive Mobile*/
 @media screen and (max-width: 480px) {
 
  
@@ -147,6 +145,7 @@
     }
 }
 
+/**Responsive Web*/
 @media screen and (min-width: 480px) {
 
     .logo_header{
@@ -175,6 +174,7 @@
     }
 }
 
+/**Responsive Web*/
 @media screen and (min-width: 767px) {
 
     .logo_header{
